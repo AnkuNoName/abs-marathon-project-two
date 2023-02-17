@@ -1,0 +1,139 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    object-fit: cover;
+}
+
+/* COMMON VALUES --------------------- */
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    box-sizing: border-box;
+    background: #292A29;
+}
+
+a { 
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    padding: 16px 34px;
+    background: #F5CD76;
+    color: #000;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+/* HEADER START ------------------------ */
+
+.header {
+    margin: 32px 0 102px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
+.header__list--link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border-bottom: 2px solid rgba(245, 205, 118, 0);
+    transition: all .3s;
+}
+
+.header__list--link:hover {
+    border-bottom: 2px solid rgba(245, 205, 118, 1);
+}
+
+.header-btn {
+    padding: 14px 24px;
+}
+
+.header__list--link {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.title {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 73px;
+}
+
+/* INFO START ------------------ */
+
+.info__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info___inner-content {
+    max-width: 520px;
+}
+
+.info___content-kicker {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #A47A26;
+
+    padding-bottom: 25px;
+}
+
+.info__content-title {
+    font-size: 66px;
+    line-height: 90px;
+
+    padding-bottom: 124px;
+}
+
+.info___content-text {
+    font-size: 17px;
+    line-height: 150%;
+    color: #D7D7D7;
+    max-width: 430px;
+
+    padding-bottom: 38px;
+}
+
